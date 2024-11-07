@@ -19,13 +19,21 @@ class Dog extends Mammal {
         System.out.println("Barking...");
     }
 }
+class Pug extends Dog{
+    void size(){
+        System.err.println("My size is small");
+    }
+}
 
 public class Multilevel {
     public static void main(String[] args) {
-        Dog myDog = new Dog();
+        Pug pug = new Pug();
 
-        myDog.eat();   
-        myDog.walk();  
-        myDog.bark();  
+        pug.eat();   
+        pug.walk();  
+        pug.bark();  
+
     }
 }
+
+
