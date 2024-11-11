@@ -29,7 +29,7 @@
     public static void main(String[] args) {
         int a[] = { 0, 1, 1, 0, 1, 0, 1 };
         printArray(a);
-       binarySort(a);
+        binarySort(a);
         printArray(a); 
     }
 }

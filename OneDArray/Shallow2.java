@@ -1,5 +1,13 @@
+// int a[]
+// b[]=a
+// c[]=b
+// d[]=c
+// e[]=d 
+
+// shallow copy and deep copy 
+
 import java.util.*;
-public class Deepcopy2{
+public class Shallow2{
     static void display(int a[]){
         for(int i=0;i<a.length;i++){
             System.out.print(a[i]+" ");
@@ -15,13 +23,24 @@ public class Deepcopy2{
             a[i]=sc.nextInt();
         }
     
-        int b[]=a.clone();
         display(a);
+        System.out.println("This is arra b");
+        int b[]=(a);
         display(b);
-        a[2]=45;
-        b[3]=34;
-        display(a);
-        display(b);
+        System.out.println("This is array C");
+        int  c[]=(b);
+        display(c);
+        System.out.println("this  is arry d");
+        int d[]=(c);
+        display(d);
+        System.out.println("This is array e");
+        int e[]=(d);
+        display(e);
+
+        System.out.println("After the clone method use in  deep copy");
+
+         
+       
         
         
       

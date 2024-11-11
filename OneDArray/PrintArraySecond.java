@@ -17,7 +17,7 @@ public static void main(String[] args) {
 
         System.out.println("Array elements:");
         for (int i = 0; i < size; i++) {
-            // System.out.print(array[i] + " ");
+           
         }
     
         int temp = size;

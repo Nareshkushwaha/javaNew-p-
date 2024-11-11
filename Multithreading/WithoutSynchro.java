@@ -1,4 +1,4 @@
-package Multithreading;
+// package Multithreading;
 class A {
     String name;
 
@@ -19,7 +19,7 @@ class B {
     }
 }
 
-public class WithoutSynchro {
+ class WithoutSynchro {
     public static void main(String[] args) {
         A k = new A("kajal");
         B l = new B(k);

@@ -1,5 +1,5 @@
 
-package oops;
+package Abstract;
 
 abstract class Figure {
     double dim1;
